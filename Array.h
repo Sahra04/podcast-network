@@ -82,7 +82,6 @@ int Array<T>::getSize() const{
 template <class T>
 void Array<T>::clear(){
 	numElements = 0;
-	delete elements; 
 }
 
 template <class T>
